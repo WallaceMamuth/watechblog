@@ -1,0 +1,86 @@
+/* Estilos globais */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f7f6;
+    color: #333;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #005a8d;
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+
+header .logo {
+    max-width: 150px;
+}
+
+header h1 {
+    font-size: 2em;
+    margin-top: 10px;
+}
+
+/* Container de Manutenção */
+.maintenance-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 70vh;
+    text-align: center;
+    padding: 20px;
+    background-color: #ffffff;
+}
+
+/* Mensagem de manutenção */
+.maintenance-message {
+    max-width: 600px;
+    background-color: #e9ecef;
+    border-radius: 8px;
+    padding: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.maintenance-message h2 {
+    font-size: 2.5em;
+    color: #dc3545;
+    margin-bottom: 20px;
+}
+
+.maintenance-message p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.maintenance-message .btn-primary {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #005a8d;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.1em;
+    transition: background-color 0.3s;
+}
+
+.maintenance-message .btn-primary:hover {
+    background-color: #004b73;
+}
+
+/* Rodapé */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+}
+
+footer .container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
